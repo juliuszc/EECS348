@@ -1,0 +1,19 @@
+#Jason Lustbader jal584
+#Juliusz Choinski jcc068
+
+What feature(s) did you try?
+
+We used curvature and box area.
+Were they continuous or discrete?
+
+They were discrete.
+How did you determine thresholds for discrete features? How well did it work?
+
+We did LOTS of trial and error for the numbers until we got results that seemed pretty good. Additionally, we decided that a higher curvature was more likely to be a drawing (based on viewing the images), and that a higher box area would likely be a drawing since they can be more spread out than a text.
+
+Best Classifier for 10 random files
+{'drawing': {'drawing': 141, 'text': 16}, 'text': {‘drawing’: 44, ’text’: 72}}
+
+
+Basic Classifier for those same 10 files
+{'drawing': {'drawing': 112, 'text': 45}, 'text': {‘drawing’: 37, ’text’: 79}}
